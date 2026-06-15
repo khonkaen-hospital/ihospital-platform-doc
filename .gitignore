@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Secrets — credential จริงห้าม commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
+
+# Node (สำหรับรันโค้ดตัวอย่างใน examples/)
+node_modules/
